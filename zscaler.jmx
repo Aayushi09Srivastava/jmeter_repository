@@ -72,7 +72,7 @@
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
-        <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+        <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
         <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -213,7 +213,7 @@
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+          <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
           <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -369,7 +369,7 @@ vars.put(&quot;pbName&quot;, pbName);
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+            <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
             <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -600,7 +600,7 @@ vars.put(&quot;taskName&quot;,taskName);
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+          <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
           <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -773,7 +773,7 @@ log.info(&quot;Time Difference (in seconds): &quot; + timeDifferenceSeconds);
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+            <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
             <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1062,7 +1062,7 @@ try {
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
           <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+          <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
           <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1255,7 +1255,7 @@ vars.put(&quot;pbName&quot;, pbName);
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.proxyHost">iopproxy.nat.bt.com</stringProp>
+            <stringProp name="HTTPSampler.proxyHost">clientproxy.nat.bt.com</stringProp>
             <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
